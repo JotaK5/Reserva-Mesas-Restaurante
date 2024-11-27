@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.PENDIENTES, .COMPLETADAS {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+}
+h2 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+li:hover {
+    background: #ddd;
+}
